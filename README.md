@@ -52,7 +52,16 @@ import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
+### index.js for React-18
+```
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App';
 
+const container = document.getElementById('root');
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
+root.render(<App />);
+```
 ### HTML Code
 ```
 <!DOCTYPE html>
@@ -69,7 +78,6 @@ ReactDOM.render(<App />, document.getElementById('root'));
 </body>
 </html>
 ```
-
 ### Webpack configuration
 ```
 const path = require('path');
