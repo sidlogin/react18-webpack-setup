@@ -15,8 +15,8 @@ Create new react application from scratch using webpack 5
 
 ## Webpack setup and configutation
 Webpack run the custom build on React code from source directory and convertd ES6 or JSX systax in to common-js syntax and host output in to our public directory to view our react application in to browser.
-1. install following npm packages npm i --save-dev webpack webpack-cli webpack-dev-server babel-loader css-loader style-loader url-loader sass sass-loader html-webpack-plugin
-2. Create the webpack.config.js file and add the webpack configuration
+1. install following npm packages `npm i --save-dev webpack webpack-cli webpack-dev-server babel-loader css-loader style-loader url-loader sass sass-loader html-webpack-plugin`
+2. Create the `webpack.config.js` file and add the webpack configuration
 3. Add the following script in package.json `"dev": "webpack serve --mode development"`
 4. Add the following script in package.json `"webpack --mode production"`
 
