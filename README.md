@@ -1,4 +1,4 @@
-# react18-webpack-setup
+# React-18-webpack-setup
 Create new react application from scratch using webpack 5
 
 ## Basic steps:
